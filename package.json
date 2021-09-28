@@ -1,0 +1,33 @@
+{
+  "name": "unify-support",
+  "version": "1.0.0",
+  "description": "Projeto para unificar os canais de suporte, para agilizar e facilitar o atendimento e visibilidade para a equipe.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "engines" : {
+    "node": ">=16.10"
+  },
+  "engineStrict": true,
+  "type": "module",
+  "keywords": [
+    "puppeeter",
+    "wordpress",
+    "cronjob"
+  ],
+  "author": "PluginAndPartners",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^10.4.0",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
