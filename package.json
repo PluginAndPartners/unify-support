@@ -8,8 +8,8 @@
     "lint": "standard",
     "lint:fix": "standard --fix"
   },
-  "engines" : {
-    "node": ">=16.10"
+  "engines": {
+    "node": "=14.17.3"
   },
   "engineStrict": true,
   "type": "module",
