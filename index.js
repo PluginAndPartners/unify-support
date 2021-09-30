@@ -15,7 +15,7 @@ new CronJob(
       await connectDB()
       await createTableIfNotExists('notifications', 'url varchar(255), wasNotify BOOL')
 
-      const topics = await getTopicsData()
+      const topics = (await getTopicsData()).reverse()
 
       for (let topicNumber = 0; topicNumber < topics.length; topicNumber++) {
         const {
